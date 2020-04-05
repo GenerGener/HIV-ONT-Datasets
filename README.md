@@ -15,4 +15,6 @@ Genomic DNA from one (n=1) Tg26 male mouse (Dickie, et al. 1991) was extracted f
 
 [Tg26 HIV mouse](https://www.jax.org/strain/022354)
 
+Dickie P; Felser J; Eckhaus M; Bryant J; Silver J; Marinos N; Notkins AL. 1991. HIV-associated nephropathy in transgenic mice expressing HIV-1 genes. Virology 185(1):109-19PubMed: 1926769MGI: J:90297
+
 
