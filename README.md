@@ -9,14 +9,16 @@ The Tg26 mouse has gagpol-deleted HIV integrated artificially (inserted) into th
 
 ## Method
 
-Genomic DNA from the bone marrow of one (n=1) Tg26 male mouse was extracted with special consideration for maintaining longer gDNA. Longrange PCR was performed to create ~6 kb amplicons. DNA was sequence on one MinION (Oxford Nanopore Technologies, Oxford, UK), with SQK-LSK109 accroding to manufacturer's protocol. Live basecalling with MinKNOW verion 19.12.5 was done on High-accuracy mode. Read filtering was done in Galaxy, specifying reads between 6 and 6.25 kb. Read mapping done with minimap2 in Galaxy. Visualized in IGV. HIV-1 reference used: HIV-1 vector pNL4-3, complete sequence AF324493.2.
+Genomic DNA from the bone marrow of one Tg26 male mouse was extracted with special consideration for maintaining longer gDNA. Longrange PCR was performed to create ~6 kb amplicons. DNA was sequence on one MinION (Oxford Nanopore Technologies, Oxford, UK), with SQK-LSK109 accroding to manufacturer's protocol. Live basecalling with MinKNOW verion 19.12.5 was done on High-accuracy mode. Read filtering was done in Galaxy, specifying reads between 6 and 6.25 kb. Read mapping done with minimap2 in Galaxy. Visualized in IGV. HIV-1 reference used: HIV-1 vector pNL4-3, complete sequence AF324493.2.
 
 ## Results
 
 *Table 1: Variants in a Tg26 mouse*
 
+There are 49 single nucleotide variants across the expected HIV portion of the transgene, supported by deep short read sequencing. Three are adjoining (and thus linked), so there were 46 variants across 15 HIV copies in this individual mouse.
+
 ![](https://github.com/GenerGener/HIV-ONT-Datasets/blob/master/HIV-ONT-Datasets/Mapping_overview.tif)
-*Figure 1: Subset of reads that were acquired by the end of the sequencing run*
+*Figure 1: Subset of reads that were acquired by the end of the long amplicon sequencing run*
 
 
 
