@@ -9,7 +9,7 @@ The Tg26 mouse has gagpol-deleted HIV integrated artificially (inserted) into th
 
 ## Method
 
-Genomic DNA from the bone marrow of one Tg26 male mouse was extracted with special consideration for maintaining longer gDNA. Longrange PCR was performed to create ~6 kb amplicons. DNA was sequence on one MinION (Oxford Nanopore Technologies, Oxford, UK), with SQK-LSK109 accroding to manufacturer's protocol. Live basecalling with MinKNOW verion 19.12.5 was done on High-accuracy mode. Read filtering was done in Galaxy, specifying reads between 6 and 6.25 kb. Read mapping done with minimap2 in Galaxy. Visualized in IGV. HIV-1 reference used: HIV-1 vector pNL4-3, complete sequence AF324493.2. All analyses as "base 1."
+One Tg26 mouse was humanely euthenized according to IACUC-approved protocols. Genomic DNA from the bone marrow of one Tg26 male mouse was extracted with special consideration for maintaining longer gDNA. Longrange PCR was performed to create ~6 kb amplicons. DNA was sequence on one MinION (Oxford Nanopore Technologies, Oxford, UK), with SQK-LSK109 accroding to manufacturer's protocol. Live basecalling with MinKNOW verion 19.12.5 was done on High-accuracy mode. Read filtering was done in Galaxy, specifying reads between 6 and 6.25 kb. Read mapping done with minimap2 in Galaxy. Visualized in IGV. HIV-1 reference used: HIV-1 vector pNL4-3, complete sequence AF324493.2. All analyses as "base 1." No human data is deposited in this page.
 
 ## Results
 
