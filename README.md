@@ -15,7 +15,7 @@ Genomic DNA from the bone marrow of one (n=1) Tg26 male mouse (Dickie, et al. 19
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
-
+![test](HIV-ONT-Datasets/HIV-ONT-Datasets/Mapping_overview.tif)
 
 
 ## Sources:
