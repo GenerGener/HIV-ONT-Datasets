@@ -5,7 +5,7 @@ Practice dataset for native viral RNA sequencing and assembly. These data provid
 
 ## Background
 
-The Tg26 mouse has gagpol-deleted HIV integrated artificially (inserted) into the mouse germline (Dickie, et al. 1991). These insertion sites have not been characterized at depth. A recent PCR-free gDNA sequencing run (unpublished) supported 15 HIV copies across multiple insertion sites (Table 1). At the time, that study was limited by inherrent shortcomings of short read sequencing (paired-end 150, average insert sized 511). Variants in HIV copies further apart than 511 bases would not be able to be phased with this short-read data. ONT DNA error profiles approximate native RNA profiles, and improve as new basecalling models develop (Gener, 2019; Gener and Kimata, 2019).
+The [Tg26 HIV mouse](https://www.jax.org/strain/022354) has gagpol-deleted HIV integrated artificially (inserted) into the mouse germline (Dickie, et al. 1991). These insertion sites have not been characterized at depth. A recent PCR-free gDNA sequencing run (unpublished) supported 15 HIV copies across multiple insertion sites (Table 1). At the time, that study was limited by inherrent shortcomings of short read sequencing (paired-end 150, average insert sized 511). Variants in HIV copies further apart than 511 bases would not be able to be phased with this short-read data. ONT DNA error profiles approximate native RNA profiles, and improve as new basecalling models develop (Gener, 2019; Gener and Kimata, 2019).
 
 ## Method
 
@@ -22,8 +22,6 @@ There are 49 single nucleotide variants across the expected HIV portion of the t
 The deletion seen toward left side is expected in this model. A few reads mapping at 3' LTR are likely 5' LTR reads with sequencing errors in key places of distinction between the two LTRs.
 
 ## Sources:
-
-[Tg26 HIV mouse](https://www.jax.org/strain/022354)
 
 Dickie P; Felser J; Eckhaus M; Bryant J; Silver J; Marinos N; Notkins AL. 1991. HIV-associated nephropathy in transgenic mice expressing HIV-1 genes. Virology 185(1):109-19PubMed: 1926769MGI: J:90297
 
