@@ -12,7 +12,7 @@ Genomic DNA from the bone marrow of one (n=1) Tg26 male mouse (Dickie, et al. 19
 ## Results
 
 ![](https://github.com/GenerGener/HIV-ONT-Datasets/blob/master/HIV-ONT-Datasets/Mapping_overview.tif)
-Subset of reads that were acquired by the end of the sequencing run. 
+Subset of reads that were acquired by the end of the sequencing run. Visualized in IGV.
 
 
 ## Sources:
