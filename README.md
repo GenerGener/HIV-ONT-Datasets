@@ -7,18 +7,13 @@ Practice dataset for native RNA sequencing and assembly. This information was ma
 
 ## Method
 
-Genomic DNA from the bone marrow of one (n=1) Tg26 male mouse (Dickie, et al. 1991) was extracted with special consideration for maintaining longer gDNA. Longrange PCR was performed to create ~6 kb amplicons. DNA was sequence on one MinION (Oxford Nanopore Technologies, Oxford, UK), with SQK-LSK109 accroding to manufacturer's protocol. Live basecalling with MinKNOW verion 19.12.5 was done on High-accuracy mode. Read filtering was done in Galaxy, specifying reads between 5.5 and 6 kb.
+Genomic DNA from the bone marrow of one (n=1) Tg26 male mouse (Dickie, et al. 1991) was extracted with special consideration for maintaining longer gDNA. Longrange PCR was performed to create ~6 kb amplicons. DNA was sequence on one MinION (Oxford Nanopore Technologies, Oxford, UK), with SQK-LSK109 accroding to manufacturer's protocol. Live basecalling with MinKNOW verion 19.12.5 was done on High-accuracy mode. Read filtering was done in Galaxy, specifying reads between 6 and 6.25 kb.
 
 ## Results
 
-<img src="Mapping_overview.jpg"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+![](https://github.com/GenerGener/HIV-ONT-Datasets/blob/master/HIV-ONT-Datasets/Mapping_overview.tif)
+Subset of reads that were acquired by the end of the sequencing run. 
 
-![](https://github.com/GenerGener/HIV-ONT-Datasets/blob/master/HIV-ONT-Datasets/Mapping_overview.tif) "test1"
-
-![](https://github.com/NCBI-Codeathons/VirusGraphs3/blob/master/limit_of_linear.png)
-Linear references are the gold standard for genomics applications, including capturing viral genome information and viral sequence recovery. Examples include HIV sequence detection and HIV genome assembly. HIV genome assembly can be loosely classified into whole (reference) genome assebly and HIV genotyping (partial assembly).
 
 ## Sources:
 
