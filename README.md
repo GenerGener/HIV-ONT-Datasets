@@ -15,7 +15,7 @@ Genomic DNA from the bone marrow of one (n=1) Tg26 male mouse (Dickie, et al. 19
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
-![](https://github.com/GenerGener/HIV-ONT-Datasets//blob/master/HIV-ONT-Datasets/Mapping_overview.jpg) "test1"
+![](https://github.com/GenerGener/HIV-ONT-Datasets/blob/master/HIV-ONT-Datasets/Mapping_overview.jpg) "test1"
 
 ![](https://github.com/NCBI-Codeathons/VirusGraphs3/blob/master/limit_of_linear.png)
 Linear references are the gold standard for genomics applications, including capturing viral genome information and viral sequence recovery. Examples include HIV sequence detection and HIV genome assembly. HIV genome assembly can be loosely classified into whole (reference) genome assebly and HIV genotyping (partial assembly).
