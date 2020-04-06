@@ -11,11 +11,11 @@ Genomic DNA from the bone marrow of one (n=1) Tg26 male mouse (Dickie, et al. 19
 
 ## Results
 
-<img src="HIV-ONT-Datasets/HIV-ONT-Datasets/Mapping_overview.jpg"
+<img src="Mapping_overview.jpg"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
-![test][https://github.com/GenerGener/HIV-ONT-Datasets/HIV-ONT-Datasets/Mapping_overview.jpg] "test1"
+![] (https://github.com/GenerGener/HIV-ONT-Datasets/HIV-ONT-Datasets/Mapping_overview.jpg) "test1"
 
 
 
