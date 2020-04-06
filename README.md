@@ -5,7 +5,7 @@ Practice dataset for native RNA sequencing and assembly. These data provide a mo
 
 ## Background
 
-The Tg26 mouse has gagpol-deleted HIV integrated artificially (inserted) into the mouse germline (Dickie, et al. 1991). These insertion sites have not been characterized at depth. A recent PCR-free gDNA sequencing run (unpublished) supported N HIV copies across multiple sites (Table 1). At the time, that study was limited by inherrent shortcomings of short read sequencing (paired-end 150, average insert sized 511). Variants in HIV copies further apart than 511 bases would not be able to be phased with this short-read data. ONT DNA error profiles approximate native RNA profiles, and improve as new basecalling models develop (Gener, 2019; Gener adn Kimata, 2010).
+The Tg26 mouse has gagpol-deleted HIV integrated artificially (inserted) into the mouse germline (Dickie, et al. 1991). These insertion sites have not been characterized at depth. A recent PCR-free gDNA sequencing run (unpublished) supported 15 HIV copies across multiple insertion sites (Table 1). At the time, that study was limited by inherrent shortcomings of short read sequencing (paired-end 150, average insert sized 511). Variants in HIV copies further apart than 511 bases would not be able to be phased with this short-read data. ONT DNA error profiles approximate native RNA profiles, and improve as new basecalling models develop (Gener, 2019; Gener adn Kimata, 2010).
 
 ## Method
 
@@ -19,11 +19,6 @@ There are 49 single nucleotide variants across the expected HIV portion of the t
 
 ![](https://github.com/GenerGener/HIV-ONT-Datasets/blob/master/HIV-ONT-Datasets/Mapping_overview.tif)
 *Figure 1: Subset of reads that were acquired by the end of the long amplicon sequencing run*
-
-
-
-
-
 
 ## Sources:
 
