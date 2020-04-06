@@ -1,0 +1,93 @@
+Map with minimap2
+Dataset Information
+Number:	13
+Name:	Map with minimap2 on data 12 and data 1 (mapped reads in BAM format)
+Created:	Mon Apr 6 01:33:12 2020 (UTC)
+Filesize:	1.8 MB
+Dbkey:	?
+Format:	bam
+Job Information
+Galaxy Tool ID:	toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2/2.17+galaxy0
+Galaxy Tool Version:	2.17+galaxy0
+Tool Version:	2.17-r941
+Tool Standard Output:	stdout
+Tool Standard Error:	stderr
+Tool Exit Code:	0
+History Content API ID:	11ac94870d0bb33af3d162462569eff9
+Job API ID:	35de45048319b5ee
+History API ID:	7f64e08f25027a84
+UUID:	d0eee920-a487-4443-8546-8c82d99cfa47
+Full Path:	/data/dnb02/galaxy_db/files/015/724/dataset_15724966.dat
+Tool Parameters
+Input Parameter	Value
+Will you select a reference genome from your history or use a built-in index?	history
+Use the following dataset as the reference sequence	
+1: HIV-1 vector pNL4-3, complete sequence AF324493.2.fasta
+indexing_options	
+Use homopolymer-compressed k-mer ?	False
+k-mer size	Not available.
+minimizer window size	Not available.
+split index for every N input gigabases	Not available.
+Single or Paired-end reads	single
+Select fastq dataset	
+12: Filter FASTQ on data 2
+Select analysis mode (sets default)	Oxford Nanopore read to reference mapping. Slightly more sensitive for Oxford Nanopore to reference mapping (-k15). For PacBio reads, HPC minimizers consistently leads to faster performance and more sensitive results in comparison to normal minimizers. For Oxford Nanopore data, normal minimizers are better, though not much. The effectiveness of HPC is determined by the sequencing error mode.
+mapping_options	
+filter out top FLOAT fraction of repetitive minimizers	Not available.
+force minimap2 to always use k-mers occuring this many times or fewer	Not available.
+stop chain enlongation if there are no minimizers in INT-bp	Not available.
+max intron length in thousand (effective with -xsplice; changing -r)	Not available.
+max fragment length (effective with -xsr or in the fragment mode)	Not available.
+bandwidth used in chaining and DP-based alignment	Not available.
+minimal number of minimizers on a chain	Not available.
+minimal chaining score (matching bases minus log gap penalty)	Not available.
+skip self and dual mappings (for the all-vs-all mode)	False
+min secondary-to-primary score ratio	Not available.
+retain at most INT secondary alignments	Not available.
+alignment_options	
+Score for a sequence match	Not available.
+Penalty for a mismatch	Not available.
+Gap open penalties for deletions	Not available.
+Gap open penalties for insertions	Not available.
+Gap extension penalties; a gap of size k cost '-O + -E*k'. If two numbers are specified, the first is the penalty of extending a deletion and the second for extending an insertion	Not available.
+Gap extension penalty for extending an insertion; if left empty uses the value specified for Gap extension penalties above	Not available.
+Z-drop score	Not available.
+minimal peak DP alignment score	Not available.
+how to find GT-AG	Nothing selected.
+io_options	
+Select an output format	BAM
+don't output base quality	False
+write CIGAR with >65535 ops to the CG tag	False
+minibatch size for mapping (in megabyte)	Not available.
+Output cs tag?	Nothing selected.
+write =/X CIGAR operators	False
+use soft clipping for supplementary alignments ?	False
+Inheritance Chain
+Map with minimap2 on data 12 and data 1 (mapped reads in BAM format)
+Command Line
+ln -f -s '/data/dnb02/galaxy_db/files/015/250/dataset_15250442.dat' reference.fa && minimap2 -x map-ont      -t ${GALAXY_SLOTS:-4} reference.fa '/data/dnb02/galaxy_db/files/015/724/dataset_15724905.dat' -a | samtools sort -@${GALAXY_SLOTS:-2} -T "${TMPDIR:-.}" -O BAM -o '/data/dnb02/galaxy_db/job_working_directory/007/634/7634028/galaxy_dataset_17200230.dat' > '/data/dnb02/galaxy_db/job_working_directory/007/634/7634028/galaxy_dataset_17200230.dat'
+Job Metrics
+cgroup
+Was OOM Killer active?	No
+OOM Control enabled	No
+CPU Time	7.13 seconds
+Max memory usage (MEM)	126.5 MB
+Max memory usage (MEM+SWP)	126.5 MB
+Memory limit on cgroup (MEM+SWP)	8.0 EB
+Memory limit on cgroup (MEM)	8.0 EB
+Memory softlimit on cgroup	8.0 EB
+Failed to allocate memory count	0
+core
+Job Runtime (Wall Clock)	8.0 seconds
+Cores Allocated	8
+Job Start Time	2020-04-06 03:31:59
+Job End Time	2020-04-06 03:32:07
+Memory Allocated (MB)	20480
+hostname
+hostname	vgcnbwc-compute-c20me-9112.novalocal
+AWS Estimate
+0.00 USD
+This job requested 8 cores and 20.0 Gb. Given this, the smallest EC2 machine we could find is m3.2xlarge (30.0 GB / 8 vCPUs / Intel Xeon E5-2670 v2 (Ivy Bridge/Sandy Bridge)). That instance is priced at 0.632 USD/hour.
+Dataset peek
+Binary bam alignments file
+    
