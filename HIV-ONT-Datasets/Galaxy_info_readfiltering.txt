@@ -1,0 +1,63 @@
+Filter FASTQ
+Dataset Information
+Number:	12
+Name:	Filter FASTQ on data 2
+Created:	Mon Apr 6 01:33:03 2020 (UTC)
+Filesize:	2.7 MB
+Dbkey:	?
+Format:	fastqsanger
+Job Information
+Galaxy Tool ID:	toolshed.g2.bx.psu.edu/repos/devteam/fastq_filter/fastq_filter/1.1.5
+Galaxy Tool Version:	1.1.5
+Tool Version:	
+Tool Standard Output:	stdout
+Tool Standard Error:	stderr
+Tool Exit Code:	0
+History Content API ID:	11ac94870d0bb33a17ba54b8c8dd0ca5
+Job API ID:	02e088a2514d2da6
+History API ID:	7f64e08f25027a84
+UUID:	8d5f0520-5144-4d43-8c90-7b90b93a1d26
+Full Path:	/data/dnb02/galaxy_db/files/015/724/dataset_15724905.dat
+Tool Parameters
+Input Parameter	Value
+FASTQ File	
+2: 18%_ABA378_pass_7dd1b65d.fastq
+Minimum size	6000
+Maximum size	6250
+Minimum quality	0.0
+Maximum quality	0.0
+Maximum number of bases allowed outside of quality range	0
+This is paired end data	False
+Inheritance Chain
+Filter FASTQ on data 2
+Command Line
+gx-fastq-filter '/data/dnb02/galaxy_db/files/015/250/dataset_15250680.dat' '/data/dnb02/galaxy_db/job_working_directory/007/634/7634027/tmp82o2ul' '/data/dnb02/galaxy_db/job_working_directory/007/634/7634027/galaxy_dataset_17200169.dat' '/data/dnb02/galaxy_db/job_working_directory/007/634/7634027/working/dataset_15724905_files' 'sanger'
+Job Metrics
+cgroup
+Was OOM Killer active?	No
+OOM Control enabled	No
+CPU Time	5.52 seconds
+Max memory usage (MEM)	126.1 MB
+Max memory usage (MEM+SWP)	126.1 MB
+Memory limit on cgroup (MEM+SWP)	8.0 EB
+Memory limit on cgroup (MEM)	8.0 EB
+Memory softlimit on cgroup	8.0 EB
+Failed to allocate memory count	0
+core
+Job Runtime (Wall Clock)	8.0 seconds
+Cores Allocated	1
+Job Start Time	2020-04-06 03:34:18
+Job End Time	2020-04-06 03:34:26
+Memory Allocated (MB)	4096
+hostname
+hostname	vgcnbwc-compute-10m55-7461.novalocal
+AWS Estimate
+0.00 USD
+This job requested 1 cores and 4.0 Gb. Given this, the smallest EC2 machine we could find is t2.medium (4.0 GB / 2 vCPUs / Intel Xeon Family). That instance is priced at 0.0536 USD/hour.
+Dataset peek
+@0d542a44-7b58-4650-99a2-472ae89421ed runid=7dd1b65ddcf79ae840620ba503095184b8664c2f read=880 ch=91 start_time=2020-04-01T06:11:47Z flow_cell_id=ABA378 protocol_group_id=HIV_IS_phasing_run5 sample_id=6262
+GGTGTACTTCGTTCAGTTACGTATTGCTATTGGCGAACACACCAGGGCCAGGGATCAGATATCCACTGACCTTTGGATGGTGCTTCAAGTTGAAGTACCAGTTGAACCAAACAGAAGTGAAGAGCCAATGAAGGAAGAACAACAGCTTGTTACACCCATGAGCCAGCATGGGATGGAGGACCCGGAGGAAGTATTAGTGTGGAAGTTTGGCAGCCTCCTAGCATTTCGTCACATGGCCCGAGCTGCATCCGAATTA
+CTACAAAGACTGCTGACATCAGGCTTTTTCTACAAAGGGACTTTCCGCTGGGGACTTTCCAGGGAGGTGTGGCCTAGGCAGGACTGGGGAGTGGCGAGCCCTCCCAGATGCTACATATAAGCAGCTGCTTTGCCCATACTAGGTCTCTCTGGTTGGAGCCAGATCTGAGCCTGGGAGCTCTCACAGCTAACTAGAGACCCACTGCTGCTACTCAATAAAGCTTGCCTTGAGTGCTCAAGTAGTGTGTGCCCGTCTG
+TTGTGTGACTCTGGTAACTAGAGATCCCTCAGACCCTTTTAGTCAGTGTGGAAAAATCTCTAGCAGTGGCGCGAACAAGGAAGCGAAGTAAAAGCCAGAGGAGATCTCTCGACGCAGGACTCGGCATGAAGCGCGCACGGCAAGAGGCGAGGGCGGCGACTGGTGAAGTACGCCAAAGAATTTTGACTAGCGGAGGCTAGAAGGAAGATGGGTGCGAGCGTCGGTATTAAGCGGGGAGAATTAGATAAATGGGAAA
+AAAATTCGGTTAAGGCCAGGGGAAAGAAACAATATAAACTAAAACATATAGTATGGGCAAGCAGGGAGCTAGAACGATTCGCAGTTAATCCTGGCCTTTTAGAGACATCAGAAGGCTGTAGACAAATACTGGGACAGCTACAACCATCCTTCAGACAGGATCAAGAGAAGAACTTAGATCATTATATAATACAATACTTGATCCTCTATTGTGTTGCATCCAAGGATAGATGTAAAAGACACCAAAGGAAGCCTTA
+    
