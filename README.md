@@ -23,7 +23,7 @@ The deletion seen toward left side is expected in this model. A few reads mappin
 
 ## Sources:
 
-Dickie P; Felser J; Eckhaus M; Bryant J; Silver J; Marinos N; Notkins AL. 1991. HIV-associated nephropathy in transgenic mice expressing HIV-1 genes. Virology 185(1):109-19PubMed: 1926769MGI: J:90297
+Dickie P; Felser J; Eckhaus M; Bryant J; Silver J; Marinos N; Notkins AL. 1991. HIV-associated nephropathy in transgenic mice expressing HIV-1 genes. Virology 185(1):109-19PubMed: 1926769MGI: J:90297.
 
 Gener, Alejandro R. 2019. “Full-Coverage Sequencing of HIV-1 Provirus from a Reference Plasmid.” BioRxiv, January, 611848. https://doi.org/10.1101/611848.
 
