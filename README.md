@@ -9,6 +9,10 @@ Practice dataset for native RNA sequencing and assembly. This information was ma
 
 Genomic DNA from the bone marrow of one (n=1) Tg26 male mouse (Dickie, et al. 1991) was extracted with special consideration for maintaining longer gDNA. Longrange PCR was performed to create ~6 kb amplicons. DNA was sequence on one MinION (Oxford Nanopore Technologies, Oxford, UK), with SQK-LSK109 accroding to manufacturer's protocol. Live basecalling with MinKNOW verion 19.12.5 was done on High-accuracy mode. Read filtering was done in Galaxy, specifying reads between 5.5 and 6 kb.
 
+## Results
+
+
+
 
 
 ## Sources:
