@@ -1,7 +1,7 @@
 # HIV-ONT-Datasets
 Alejandro Gener (ARG)
 
-Practice dataset for native RNA sequencing and assembly. These data provide a model for viral haplotyping for SNVs at least 6 kb apart. This information was made available for the [COVID-19 Biohackathon April 5-11 2020](https://github.com/virtual-biohackathons/covid-19-bh20).
+Practice dataset for native RNA sequencing and assembly. These data provide a model (ground truth) for viral haplotyping for SNVs at least 6 kb apart. This information was made available for the [COVID-19 Biohackathon April 5-11 2020](https://github.com/virtual-biohackathons/covid-19-bh20).
 
 ## Background
 
@@ -19,6 +19,7 @@ There are 49 single nucleotide variants across the expected HIV portion of the t
 
 ![](https://github.com/GenerGener/HIV-ONT-Datasets/blob/master/HIV-ONT-Datasets/Mapping_overview.tif)
 *Figure 1: Subset of reads that were acquired by the end of the long amplicon sequencing run*
+The deletion seen toward left side is expected in this model. A few reads mapping at 3' LTR are likely 5' LTR reads with sequencing errors in key places of distinction between the two LTRs.
 
 ## Sources:
 
